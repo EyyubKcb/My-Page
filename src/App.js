@@ -6,7 +6,7 @@ function App() {
   const [inputText, setinputText] = useState('')
   const [todos, setTodos] = useState([])
   const [status, setStatus] = useState('all')
-  
+  const [filteredTodos, setFilteredTodos] = useState([])
 
   useEffect(() => {
     filterhandler();
